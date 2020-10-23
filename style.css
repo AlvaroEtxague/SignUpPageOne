@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #1e272e;
+  position: relative;
+  padding-top: 70px;
+}
+
+.container {
+  background-color: white;
+  color: #1e272e;
+  padding: 25px;
+  max-width: 400px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.header,
+.header-title {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+form div {
+  padding-bottom: 15px;
+}
+
+.form-info-text p {
+  text-align: center;
+  font-size: small;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 0.5px solid #d2dae2;
+  border-radius: 5px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+  background-color: #0fbcf9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #34e7e4;
+}
+
+.have-account {
+  padding: 25px;
+  width: 400px;
+  margin: auto;
+  color: white;
+  font-weight: 500;
+}
+
+.have-account a {
+  color: #4bcffa;
+  text-decoration: none;
+}
+
+.have-account a:hover {
+  color: #34e7e4;
+  text-decoration: none;
+}
+
+.have-account p {
+  text-align: center;
+}
